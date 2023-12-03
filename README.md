@@ -1,5 +1,6 @@
 # adventofcode-2023
 
+## Advent of Code
 
 Advent of Code is an annual event organized by Eric Wastl. It runs from December 1st to December 25th, and each day, a new programming puzzle is released. Puzzles can be found on the [Advent of Code website](https://adventofcode.com/)
 
@@ -13,6 +14,20 @@ Advent of Code is an annual event organized by Eric Wastl. It runs from December
 ├── src                     
 │   └── day_{day_num}.py
 ```
+## How to get started
+
+Run the bash script to download the inputs. Hardcoded 2023 :(
+
+```bash
+bash utils/aoc.sh 1
+```
+
+or for today's puzzle
+
+```bash
+bash utils/aoc.sh
+```
+
 ## Status 
 
 | Day | Gold Stars | 
