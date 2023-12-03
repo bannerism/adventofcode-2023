@@ -4,6 +4,8 @@
 
 Advent of Code is an annual event organized by Eric Wastl. It runs from December 1st to December 25th, and each day, a new programming puzzle is released. Puzzles can be found on the [Advent of Code website](https://adventofcode.com/)
 
+Real Python has some templates and utils to consider in the future: https://realpython.com/python-advent-of-code/
+
 ```
 ├── .gitignore                
 ├── README.md                 
