@@ -5,7 +5,6 @@ Advent of Code is an annual event organized by Eric Wastl. It runs from December
 
 ```
 ├── .gitignore                
-├── Pipfile                  
 ├── README.md                 
 │
 ├── day
