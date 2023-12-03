@@ -7,18 +7,9 @@ Advent of Code is an annual event organized by Eric Wastl. It runs from December
 ├── .gitignore                
 ├── README.md                 
 │
-├── day
-│   ├── 1_{topic}
-│   ├── 2_{topic}           
-│   ├── 3_{topic} 
-│   ├── ... 
-│   └── {day}_{topic}            
+├── data
+│   └── {day_num}_inputs
 │
-├── inputs                     
-│   ├── 1_1_test
-│   ├── 1_1_final
-│   ├── 1_2_test
-│   ├── 1_2_final
-│   ├── ...
-│   └── {day}_{part}_final
+├── src                     
+│   └── day_{day_num}.py
 ```
