@@ -90,11 +90,12 @@ class DayOne(unittest.TestCase):
 
         PATH = '/workspaces/adventofcode-2023/data/'
         FILENAME = 'inputs.txt'
+        TRANSLATE = False
 
         GOLD_STAR = 55607
 
 
-        self.assertEqual(day1_part1(PATH,FILENAME),GOLD_STAR)
+        self.assertEqual(day1(PATH,FILENAME,TRANSLATE),GOLD_STAR)
 
     def test_part_two_gold_star(self):
         """
@@ -103,11 +104,13 @@ class DayOne(unittest.TestCase):
 
         PATH = '/workspaces/adventofcode-2023/data/'
         FILENAME = 'inputs.txt'
+        TRANSLATE = True
+
 
         GOLD_STAR = 55309
 
 
-        self.assertNotEqual(day1_part2(PATH,FILENAME),GOLD_STAR)
+        self.assertNotEqual(day1(PATH,FILENAME,TRANSLATE),GOLD_STAR)
 
 def load_inputs(path,filename):
     file_path = os.path.join(path, filename)
@@ -160,15 +163,9 @@ def find_candidates(input,translate=False):
 def sum_candidates(candidates):
     return sum(candidates)
 
-   
-def day1_part1(path,filename):
+def day1(path,filename,translate=False):
     inputs = load_inputs(path,filename)
-    candidates = find_candidates(inputs)
-    return sum_candidates(candidates)
-
-def day1_part2(path,filename):
-    inputs = load_inputs(path,filename)
-    candidates = find_candidates(inputs,True)
+    candidates = find_candidates(inputs,translate)
     return sum_candidates(candidates)
 
 if __name__ == "__main__":
