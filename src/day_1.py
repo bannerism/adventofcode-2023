@@ -89,7 +89,7 @@ class DayOne(unittest.TestCase):
         """
 
         PATH = '/workspaces/adventofcode-2023/data/'
-        FILENAME = 'inputs.txt'
+        FILENAME = '1_inputs.txt'
         TRANSLATE = False
 
         GOLD_STAR = 55607
@@ -103,7 +103,7 @@ class DayOne(unittest.TestCase):
         """
 
         PATH = '/workspaces/adventofcode-2023/data/'
-        FILENAME = 'inputs.txt'
+        FILENAME = '1_inputs.txt'
         TRANSLATE = True
 
 
